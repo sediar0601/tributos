@@ -1,0 +1,90 @@
+@media screen and (min-width: 400px){
+
+    div.mision-vision-box div.mision-vision-card{
+        min-width: 80% !important;
+    }
+
+}
+
+@media screen and (min-width: 550px){
+
+    div.welcome-box h1{
+        font-size: 2.5em;
+    }
+
+}
+
+@media screen and (min-width: 850px){
+    
+    video.video-intro{
+        display: block;
+    }
+    
+    img.gif-intro{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+
+    div.welcome-box h1{
+        font-size: 3.5em;
+    }
+
+    div.about-us-title-box{
+        font-size: 1.3em;
+    }
+
+    div.about-us-title-box h2{
+        font-size: 2em;
+    }
+
+    div.about-us-box-secondary{
+        display: grid !important;
+        font-size: 1.3em;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    p.about-us-paragraph,
+    div.about-us-see-more-box{
+        grid-column: 1/2;
+    }
+
+    figure.about-us-figure{
+        grid-column: 2/3;
+    }
+
+    div.about-us-title-box{
+        padding-left: 1.3em;
+    }
+    
+    p.about-us-paragraph{
+        padding-left: 1.2em;
+    }
+
+    img.about-us-figure-img{
+        width: 450px;
+    }
+
+    div.mision-vision-box{
+        padding: 4em 0 !important;
+    }
+
+    div.mision-vision-box div.mision-vision-card{
+        min-width: 450px !important;
+        margin: 0 4% !important;
+    }
+
+    div.division-section-title-box h2{
+        font-size: 4.5em;
+    }
+
+    ul.seminar-diplomat-list{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        justify-items: center !important;
+        align-items: center !important;
+    }
+    
+}

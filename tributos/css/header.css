@@ -1,0 +1,25 @@
+header{
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+div.btn-menu-box{
+    margin: 1em;
+    position: absolute;
+    right: 0;
+}
+
+div.btn-menu-box span{
+    cursor: pointer;
+    font-size: 2em;
+    color: #e4e4e4;
+    display: inline-block;
+    transition: all .5s;
+}
+
+div.btn-menu-box span.icon-cross{
+    color: #03af6d;
+}

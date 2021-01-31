@@ -1,0 +1,169 @@
+div.seminar-diplomat-box{
+    width: 100%;
+    background: var(--color-fondo-cajas);
+    position: relative;
+}
+
+ul.seminar-diplomat-list{
+    width: 100%;
+    /* max-width: 600px; */
+    margin: 0 auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+li.seminar-diplomat-list-item{
+    padding: 1em;
+    height: min-content !important;
+    min-height: 150px;
+    margin: 0 auto;
+    background: var(--color-fondo-cartas);
+    border-radius: 1em;
+    transition: all ease .3s;
+    font-style: italic;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    max-width: 550px;
+}
+
+li.seminar-diplomat-list-item-end{
+    grid-column: 1/3;
+}
+
+li.seminar-diplomat-list-item-active{
+    transform: translateY(-15px);
+    box-shadow: 0 15px 15px var(--color-sombra);
+}
+
+span.seminar-diplomat-list-item-title{
+    display: inline-block;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: .5em;
+    color: var(--color-blanco-hueso);
+    width: 100%;
+}
+
+span.seminar-diplomat-list-item-title-see-more{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background: var(--color-azul-claro);
+    width: 60%;
+    max-width: 160px;
+    height: 30px;
+    margin-bottom: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+    font-size: 1.2em;
+    color: var(--color-blanco-hueso);
+    cursor: pointer;
+}
+
+ul.seminar-diplomat-list-item-sublist{
+    /* width: 90%;
+    margin: 0 auto; */
+    border-top: 2px solid var(--color-verde-claro);
+    /* background: red; */
+    margin-top: .5em;
+    display: none;
+    padding: .5em 0;
+    
+}
+
+li.seminar-diplomat-list-item-sublist-item{
+    padding: .2em .5em;
+    color: var(--color-azul-claro);
+    font-size: 1.1em;
+}
+
+li.seminar-diplomat-list-item-sublist-item span{
+    color: var(--color-gris);
+    /* margin-left: 4em; */
+    text-align: end;
+    display: inline-block;
+    /* background: red; */
+    width: 100%;
+}
+
+span.seminar-diplomat-list-item-sublist-item-description{
+    display: block;
+    padding: 1em 0;
+    text-align: justify !important;
+    color: var(--color-blanco-hueso);
+    font-size: 1em;
+    margin-left: 0 !important;
+}
+
+ul.seminar-diplomat-list-item-sublist{
+    width: 100%;
+}
+
+li.seminar-diplomat-list-item-sublist-item-diplomat{
+    display: block;
+    /* padding: 1em 0; */
+    text-align: justify;
+    color: var(--color-blanco-hueso);
+    font-size: 1.1em;
+    margin-left: 0 !important;
+    padding: .5em;
+    line-height: 1.8em;
+}
+
+span.seminar-diplomat-list-item-sublist-item-diplomat-unicode{
+    font-size: 1.2em;
+    color: var(--color-azul-claro);
+    /* width: 40px; */
+    margin-right: .3em;
+}
+
+span.seminar-diplomat-list-item-sublist-item-diplomat-unicode-double{
+    font-size: 1.2em;
+    color: var(--color-verde-claro);
+    margin-right: .3em;
+}
+
+span.seminar-diplomat-list-item-sublist-item-diplomat-subitems-title{
+    font-size: 1.1em;
+    color: var(--color-blanco-hueso);
+    text-align: start !important;
+    display: block !important;
+    position: relative;
+}
+
+span.seminar-diplomat-list-item-sublist-item-diplomat-subitems-title-content{
+    margin-right: 40px;
+}
+
+span.seminar-diplomat-list-item-sublist-item-diplomat-subitems-title-see-more{
+    display: inline-block;
+    position: absolute;
+    font-style: normal;
+    font-size: 1.5em;
+    right: 0;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+div.seminar-diplomat-list-item-sublist-item-diplomat-subitems{
+    display: none;
+    background: var(--color-fondo-cajas);
+    padding: .5em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top: 2px solid var(--color-verde-claro);
+    margin-top: .5em;
+}
+
+span.seminar-diplomat-list-item-sublist-item-diplomat-subitems-content{
+    display: block;
+    line-height: 2.2em;
+    text-align: justify !important;
+    color: var(--color-gris);
+}

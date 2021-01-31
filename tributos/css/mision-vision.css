@@ -1,0 +1,53 @@
+div.mision-vision-box{
+    width: 100%;
+    /* height: 430px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em 0;
+    background: var(--color-fondo-cajas);
+    background-size: cover;
+}
+
+div.mision-vision-box div.mision-vision-card{
+    width: 38%;
+    min-width: 300px !important;
+    /* height: 200px; */
+    border-radius: 1em;
+    box-shadow: 0 2px 2px transparent;
+    overflow: hidden !important;
+    text-align: center;
+    transition: all 0.25s;
+    background: var(--color-fondo-cartas);
+    cursor: pointer;
+    font-size: Helvetica;
+    margin: 1.5em 1.5em !important;
+}
+
+div.mision-vision-box div.mision-vision-card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 15px 15px var(--color-sombra);
+}
+
+div.mision-vision-box div.mision-vision-card:hover h4{
+    color: var(--color-verde-claro);
+}
+
+div.mision-vision-box div.mision-vision-card img{
+    width: 100%;
+}
+
+div.mision-vision-box div.mision-vision-card h4{
+    font-weight: 600;
+    padding: .8em 0;
+    color: var(--color-azul-claro);
+    font-size: 1.5em;
+}
+
+div.mision-vision-box div.mision-vision-card p{
+    padding-bottom: 2.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.1em;
+    color: var(--color-blanco-hueso);
+}

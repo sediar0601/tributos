@@ -1,0 +1,13 @@
+@import "variables.css";
+
+@import "styles-general.css";
+
+@import "header.css";
+
+@import "aside.css";
+
+@import "main.css";
+
+@import "footer.css";
+
+@import "media-querys.css";

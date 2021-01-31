@@ -1,0 +1,13 @@
+footer{
+    background: var(--color-fondo-cajas);
+    padding: 1em;
+    max-width: var(--ancho-maximo-ventana);
+    margin: 0 auto;
+}
+
+footer p{
+    font-size: 1.2em;
+    text-align: center;
+    color: var(--color-blanco-hueso);
+    margin: .5em 0;
+}

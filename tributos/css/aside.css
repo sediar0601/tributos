@@ -1,0 +1,38 @@
+aside{
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+    position: absolute;
+    background: var(--color-aside);
+    opacity: .9;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    transition: all .5s;
+}
+
+aside ul{
+    text-align: center;
+}
+
+aside ul li{
+    margin: 1.5em 0;
+    border-bottom: 2px solid transparent;
+    transition: all .3s;
+}
+
+aside ul li a{
+    font-size: 1.8em;
+    color: var(--color-blanco-hueso);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+aside ul li:hover{
+    border-bottom: 2px solid var(--color-azul-claro);
+}
+
+aside ul li:hover a{
+    color: var(--color-azul-claro);
+}

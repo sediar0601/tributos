@@ -1,0 +1,17 @@
+:root{
+
+    --color-aside: #1b1d41;
+    --color-footer: #1a2a3b;
+    --color-fondo-division-seccion: #031738;
+    --color-fondo-cajas: #26323f;
+    --color-fondo-cartas: #212930;
+    
+    --color-sombra: rgba(0, 0, 0, 0.664);
+    --color-azul-claro: #0353af;
+    --color-verde-claro: #03af6d;
+    --color-blanco-hueso: #e4e4e4;
+    --color-gris: #b1b0b0;
+
+    --ancho-maximo-ventana: 1800px;
+
+}
